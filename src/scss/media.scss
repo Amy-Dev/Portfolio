@@ -1,0 +1,32 @@
+@mixin small {
+    @media (min-width: 375px) {
+      @content;
+    }
+  }
+  @mixin medium {
+    @media (min-width: 767px) {
+      @content;
+    }
+  }
+  @mixin large {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+
+  @font-face {
+    font-family: "Beyond";
+    src: url("../fonts/beyond_the_mountains.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/AnyConv.com__Roboto-Medium.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/AnyConv.com__Roboto-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/AnyConv.com__Roboto-Bold.woff") format("woff");
+  }

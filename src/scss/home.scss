@@ -1,0 +1,214 @@
+body {
+    width: 375px;
+
+.insta {
+    display: flex;
+    width: 375px;
+    height: 55px;
+    &__french {
+        margin-right: 76px;
+        margin-left: 16px;
+        width: 26px;
+    }
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-right: 76px;
+    font-family: "Beyond";
+    }
+    &__interface {
+        margin-right: 16px;
+        width: 26px;
+    }
+}
+
+.bloc {
+    border: 0.5px solid #C6C6C6;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    margin-top: 12px;
+    margin-bottom: 23px;
+
+    .pp {
+        margin-left: 10px;
+    }
+
+    img{
+        width: 70px;
+        margin-right: 12px;
+
+    }
+}
+
+//-----post 1-----//
+
+.post1 {
+    .photome {
+        width: 30px;
+        margin-left: 15px;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 8px;
+
+    }
+    .text {
+        margin-left: 15px;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+
+    }
+    .stage {
+        width: 375px;
+    }
+    .heart {
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .text__photo1 {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        .photo1 {
+            &__text1 {
+                font-family: "Roboto-Medium";
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 12px;
+            }
+            &__text2 {
+                font-family: "Roboto-Regular";
+                width: 351px;
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+            &__time {
+                font-family: "Roboto-Medium";
+                font-size: 11px;
+                margin-left: 12px;
+                margin-top: 5px;
+                color: #939292;
+            }
+        }
+    }
+}
+
+//-----post 2-----//
+
+.post2 {
+    .photome {
+        width: 30px;
+        margin-left: 15px;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 8px;
+
+    }
+    .text {
+        margin-left: 15px;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+
+    }
+    .stage {
+        width: 375px;
+    }
+    .heart {
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .text__photo2 {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        .photo2 {
+            &__text1 {
+                font-family: "Roboto-Medium";
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 12px;
+            }
+            &__text2 {
+                font-family: "Roboto-Regular";
+                width: 351px;
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+            &__time {
+                font-family: "Roboto-Medium";
+                font-size: 11px;
+                margin-left: 12px;
+                margin-top: 5px;
+                color: #939292;
+            }
+        }
+    }
+}
+
+//-----Post3-----//
+
+.post3 {
+    .photome {
+        width: 30px;
+        margin-left: 15px;
+    }
+    .info {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 8px;
+
+    }
+    .text {
+        margin-left: 15px;
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+
+    }
+    .stage {
+        width: 375px;
+    }
+    .heart {
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .text__photo3 {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        .photo3 {
+            &__text1 {
+                font-family: "Roboto-Medium";
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 12px;
+            }
+            &__text2 {
+                font-family: "Roboto-Regular";
+                width: 351px;
+                margin-left: 12px;
+                margin-right: 12px;
+            }
+            &__time {
+                font-family: "Roboto-Medium";
+                font-size: 11px;
+                margin-left: 12px;
+                margin-top: 5px;
+                color: #939292;
+            }
+        }
+    }
+}
+}
