@@ -1,5 +1,6 @@
 body {
 
+    //-----header home-----//
 .insta {
     display: flex;
     background-color: white;
@@ -10,30 +11,30 @@ body {
         margin-left: 16px;
         width: 26px;
     }
-h1 {
-    font-size: 24px;
-    text-align: center;
-    margin-right: 76px;
-    font-family: "Beyond";
+    &__text {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+        font-family: "Beyond"; 
     }
     &__interface {
+        margin-left: 77px;
         margin-right: 16px;
         width: 26px;
     }
    
 }
-.bloc {
-    border: 0.5px solid #C6C6C6;
-}
 
-.photo {
+    //-----profil collaboration-----//
+
+.collaboration {
     display: flex;
     align-items: center;
     overflow-x: auto;
-    margin-top: 12px;
+    margin-top: 67px;
     margin-bottom: 23px;
 
-    .pp {
+    &__photo {
         margin-left: 10px;
     }
 
@@ -44,46 +45,50 @@ h1 {
     }
 }
 
+.bloc2 {
+    border: 0.3px solid #C6C6C6;
+}
+
 //-----post 1-----//
 
 .post1 {
-    .photome {
-        width: 30px;
-        margin-left: 15px;
-    }
-    .info {
+    
+    &__info {
         display: flex;
         align-items: center;
         margin-top: 10px;
         margin-bottom: 8px;
-
     }
-    .text {
+    &__photoprofil {
+        width: 30px;
+        margin-left: 15px;
+    }
+    &__name {
         margin-left: 15px;
         font-family: "Roboto-Regular";
         font-size: 14px;
 
     }
-    .stage {
+    &__stage {
         width: 375px;
     }
-    .heart {
+    &__heart {
         margin-left: 15px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .text__photo1 {
+    &__text {
         font-size: 14px;
         display: flex;
         flex-direction: column;
-        .photo1 {
-            &__text1 {
+        .text {
+            &__name {
                 font-family: "Roboto-Medium";
                 display: flex;
                 justify-content: flex-start;
                 margin-left: 12px;
             }
-            &__text2 {
+            &__info {
                 font-family: "Roboto-Regular";
                 width: 351px;
                 margin-left: 12px;
@@ -103,43 +108,43 @@ h1 {
 //-----post 2-----//
 
 .post2 {
-    .photome {
-        width: 30px;
-        margin-left: 15px;
-    }
-    .info {
+    &__info {
         display: flex;
         align-items: center;
         margin-top: 10px;
         margin-bottom: 8px;
 
     }
-    .text {
+    &__photoprofil {
+        width: 30px;
+        margin-left: 15px;
+    }
+    &__name {
         margin-left: 15px;
         font-family: "Roboto-Regular";
         font-size: 14px;
 
     }
-    .stage {
+    &__alternance {
         width: 375px;
     }
-    .heart {
+    &__heart {
         margin-left: 15px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .text__photo2 {
+    .text2 {
         font-size: 14px;
         display: flex;
         flex-direction: column;
-        .photo2 {
-            &__text1 {
+        .text2 {
+            &__name {
                 font-family: "Roboto-Medium";
                 display: flex;
                 justify-content: flex-start;
                 margin-left: 12px;
             }
-            &__text2 {
+            &__info {
                 font-family: "Roboto-Regular";
                 width: 351px;
                 margin-left: 12px;
@@ -159,43 +164,43 @@ h1 {
 //-----Post3-----//
 
 .post3 {
-    .photome {
-        width: 30px;
-        margin-left: 15px;
-    }
-    .info {
+    &__info {
         display: flex;
         align-items: center;
         margin-top: 10px;
         margin-bottom: 8px;
 
     }
-    .text {
+    &__photoprofil {
+        width: 30px;
+        margin-left: 15px;
+    }
+    &__name {
         margin-left: 15px;
         font-family: "Roboto-Regular";
         font-size: 14px;
 
     }
-    .stage {
+    &__presentation {
         width: 375px;
     }
-    .heart {
+    &__heart {
         margin-left: 15px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
-    .text__photo3 {
+    .text3 {
         font-size: 14px;
         display: flex;
         flex-direction: column;
-        .photo3 {
-            &__text1 {
+        .text3 {
+            &__name {
                 font-family: "Roboto-Medium";
                 display: flex;
                 justify-content: flex-start;
                 margin-left: 12px;
             }
-            &__text2 {
+            &__info {
                 font-family: "Roboto-Regular";
                 width: 351px;
                 margin-left: 12px;
