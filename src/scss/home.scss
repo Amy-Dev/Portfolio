@@ -3,29 +3,25 @@ body {
     //-----header home-----//
 .insta {
     display: flex;
+    justify-content: space-between;
     background-color: white;
-    width: 375px;
+    width: 320px;
     height: 55px;
     margin-top: -67px;
     margin-bottom: 0px;
     &__french {
-        margin-right: 76px;
         margin-left: 16px;
         width: 26px;
     }
     &__text {
         font-size: 24px;
-        text-align: center;
-        margin-left: 0px;
         font-family: "Beyond";
         color: black;
         text-decoration-line: none;
         display: flex;
-        justify-content: center;
         align-items: center;
     }
     &__interface {
-        margin-left: 77px;
         margin-right: 16px;
         width: 26px;
     }
@@ -77,7 +73,7 @@ body {
 
     }
     &__stage {
-        width: 375px;
+        width: 320px;
     }
     &__heart {
         margin-left: 15px;
@@ -97,7 +93,7 @@ body {
             }
             &__info {
                 font-family: "Roboto-Regular";
-                width: 351px;
+                width: 300px;
                 margin-left: 12px;
                 margin-right: 12px;
             }
@@ -133,7 +129,7 @@ body {
 
     }
     &__alternance {
-        width: 375px;
+        width: 320px;
     }
     &__heart {
         margin-left: 15px;
@@ -153,7 +149,7 @@ body {
             }
             &__info {
                 font-family: "Roboto-Regular";
-                width: 351px;
+                width: 300px;
                 margin-left: 12px;
                 margin-right: 12px;
             }
@@ -189,7 +185,7 @@ body {
 
     }
     &__presentation {
-        width: 375px;
+        width: 320px;
     }
     &__heart {
         margin-left: 15px;
@@ -209,7 +205,7 @@ body {
             }
             &__info {
                 font-family: "Roboto-Regular";
-                width: 351px;
+                width: 300px;
                 margin-left: 12px;
                 margin-right: 12px;
             }
@@ -219,6 +215,7 @@ body {
                 margin-left: 12px;
                 margin-top: 5px;
                 color: #939292;
+                margin-bottom: 30px;
             }
         }
     }

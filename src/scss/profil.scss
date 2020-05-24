@@ -1,6 +1,6 @@
 body {
     background-color: white;
-
+    //-----header-----//
 header {
     position: fixed;
     background-color: white;
@@ -24,8 +24,11 @@ header {
         border: 1px solid #C6C6C6;
     }
 
+//-----Description-----//
+
 .description {
     display: flex;
+    justify-content: space-between;
     text-align: center;
     margin-top: 55px;
     
@@ -38,7 +41,7 @@ header {
         font-family: "Roboto-Bold";
         font-size: 12px;
         margin-top: 30px;
-        margin-left: 46px;
+        margin-left: 10px;
     }
     &__mood1 {
         font-family: "Roboto-Bold";
@@ -55,27 +58,39 @@ header {
     }
 }
 
+//-----Resume-----//
+
 .resume {
     margin-left: 20px;
     margin-right: 20px;
-    &__name {
-        font-family: "Roboto-Bold";
-        font-size: 18px;
-        margin-top: 10px;
+    &__profil {
+        .profil {
+            &__name {
+                font-family: "Roboto-Bold";
+                font-size: 18px;
+                margin-top: 10px;
+            }
+            &__folio {
+                font-family: "Roboto-Regular";
+                font-size: 14px;
+                color: #939292;
+                margin-top: 2px;
+            }   
+        }
     }
-    &__folio {
-        font-family: "Roboto-Regular";
-        font-size: 14px;
-        color: #939292;
-        margin-top: 2px;
-    }
+    
+&__text {
+    margin-top: 10px;
     article {
         font-family: "Roboto-Regular";
         font-size: 14px;
         margin-top: 5px;
     }
+    }
 
 }
+
+//-----Bouton-----//
 
 .bouton {
     display: flex;
@@ -85,17 +100,44 @@ header {
     width: 138px;
     height: 31px;
     margin-top: 30px;
-    margin-left: 118px;
-
+    margin-left: auto;
+    margin-right: auto;
     article {
         font-family: "Roboto-Bold";
+        display: flex;
+        align-items: center;
     }
 }
 
+//-----Main projects-----//
+
 main {
     margin-top: 20px;
-    img {
-        width: 122px;
+    
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .line1 {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        img {
+            width: 32.5%;
+        }
+
+    }
+    .line2 {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-top: 2px;
+        img {
+            width: 32.5%;
+        }
     }
 }
 }
