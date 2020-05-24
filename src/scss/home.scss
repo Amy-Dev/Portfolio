@@ -3,6 +3,7 @@ body {
 
 .insta {
     display: flex;
+    background-color: white;
     width: 375px;
     height: 55px;
     &__french {
@@ -20,8 +21,8 @@ h1 {
         margin-right: 16px;
         width: 26px;
     }
+   
 }
-
 .bloc {
     border: 0.5px solid #C6C6C6;
 }
