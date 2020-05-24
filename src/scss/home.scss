@@ -6,6 +6,8 @@ body {
     background-color: white;
     width: 375px;
     height: 55px;
+    margin-top: -67px;
+    margin-bottom: 0px;
     &__french {
         margin-right: 76px;
         margin-left: 16px;
@@ -15,7 +17,12 @@ body {
         font-size: 24px;
         text-align: center;
         margin-left: 0px;
-        font-family: "Beyond"; 
+        font-family: "Beyond";
+        color: black;
+        text-decoration-line: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     &__interface {
         margin-left: 77px;
