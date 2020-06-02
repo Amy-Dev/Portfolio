@@ -1,5 +1,7 @@
+*{box-sizing: border-box;}
 body {
 
+    
     //-----header home-----//
 .insta {
     display: flex;
@@ -86,23 +88,24 @@ body {
         font-size: 14px;
         display: flex;
         flex-direction: column;
+        padding: 1rem;
         .text {
             &__name {
                 font-family: "Roboto-Medium";
                 display: flex;
                 justify-content: flex-start;
-                margin-left: 12px;
+
             }
             &__info {
                 font-family: "Roboto-Regular";
                 width: 300px;
-                margin-left: 12px;
-                margin-right: 12px;
+
+        
             }
             &__time {
                 font-family: "Roboto-Medium";
                 font-size: 11px;
-                margin-left: 12px;
+
                 margin-top: 5px;
                 color: #939292;
             }
@@ -136,29 +139,29 @@ body {
     &__heart {
         margin-left: 15px;
         margin-top: 5px;
-        margin-bottom: 5px;
     }
     .text2 {
         font-size: 14px;
         display: flex;
         flex-direction: column;
+        padding: 1rem;
         .text2 {
             &__name {
                 font-family: "Roboto-Medium";
                 display: flex;
                 justify-content: flex-start;
-                margin-left: 12px;
+
             }
             &__info {
                 font-family: "Roboto-Regular";
                 width: 100%;
-                margin-left: 12px;
-                margin-right: 12px;
+
+
             }
             &__time {
                 font-family: "Roboto-Medium";
                 font-size: 11px;
-                margin-left: 12px;
+
                 margin-top: 5px;
                 color: #939292;
             }
@@ -195,26 +198,27 @@ body {
         margin-bottom: 5px;
     }
     .text3 {
-        font-size: 14px;
         display: flex;
         flex-direction: column;
+        padding: 1rem;
+        
         .text3 {
             &__name {
                 font-family: "Roboto-Medium";
                 display: flex;
                 justify-content: flex-start;
-                margin-left: 12px;
+
             }
             &__info {
                 font-family: "Roboto-Regular";
                 width: 100%;
-                margin-left: 12px;
-                margin-right: 12px;
+
+
             }
             &__time {
                 font-family: "Roboto-Medium";
                 font-size: 11px;
-                margin-left: 12px;
+
                 margin-top: 5px;
                 color: #939292;
                 margin-bottom: 30px;
