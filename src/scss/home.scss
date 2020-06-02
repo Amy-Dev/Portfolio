@@ -98,7 +98,6 @@ body {
             }
             &__info {
                 font-family: "Roboto-Regular";
-                width: 300px;
 
         
             }
@@ -201,6 +200,7 @@ body {
         display: flex;
         flex-direction: column;
         padding: 1rem;
+        font-size: 14px;
         
         .text3 {
             &__name {
