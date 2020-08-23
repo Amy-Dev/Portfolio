@@ -15,12 +15,22 @@ body {
         margin-left: 16px;
         width: 26px;
     }
-    &__text {
+    &__text1 {
         font-size: 24px;
         font-family: "Beyond";
         color: black;
         text-decoration-line: none;
         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text2 {
+        font-size: 24px;
+        font-family: "Beyond";
+        color: black;
+        text-decoration-line: none;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
     &__interface {
@@ -53,68 +63,21 @@ body {
 }
 
 .bloc2 {
-    border: 0.3px solid #C6C6C6;
+    border: 1px solid #C8DDE8;
+}
+//-----post------//
+.post {
+    margin: 15px;
 }
 
 //-----post 1-----//
 
 .post1 {
-    
-    &__info {
-        display: flex;
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 8px;
-    }
-    &__photoprofil {
-        width: 30px;
-        margin-left: 15px;
-    }
-    &__name {
-        margin-left: 15px;
-        font-family: "Roboto-Regular";
-        font-size: 14px;
 
-    }
-    &__stage {
-        width: 100%;
-    }
-    &__heart {
-        margin-left: 15px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    &__text {
-        font-size: 14px;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        .text {
-            &__name {
-                font-family: "Roboto-Medium";
-                display: flex;
-                justify-content: flex-start;
+    border-radius: 30px;
+    box-shadow:0px -10px 20px rgba(208, 238, 255, 0.44),
+    (0px 10px 20px rgba(208, 238, 255, 0.44)) ;
 
-            }
-            &__info {
-                font-family: "Roboto-Regular";
-
-        
-            }
-            &__time {
-                font-family: "Roboto-Medium";
-                font-size: 11px;
-
-                margin-top: 5px;
-                color: #939292;
-            }
-        }
-    }
-}
-
-//-----post 2-----//
-
-.post2 {
     &__info {
         display: flex;
         align-items: center;
@@ -125,32 +88,30 @@ body {
     &__photoprofil {
         width: 30px;
         margin-left: 15px;
+        margin-top: 10px;
     }
     &__name {
         margin-left: 15px;
         font-family: "Roboto-Regular";
         font-size: 14px;
+        margin-top: 10px;
 
     }
     &__alternance {
         width: 100%;
+        border-radius: 30px;
     }
     &__heart {
         margin-left: 15px;
         margin-top: 5px;
+        background-image: red;
     }
-    .text2 {
+    .text1 {
         font-size: 14px;
         display: flex;
         flex-direction: column;
         padding: 1rem;
-        .text2 {
-            &__name {
-                font-family: "Roboto-Medium";
-                display: flex;
-                justify-content: flex-start;
-
-            }
+        .text1 {
             &__info {
                 font-family: "Roboto-Regular";
                 width: 100%;
@@ -171,6 +132,11 @@ body {
 //-----Post3-----//
 
 .post3 {
+
+    border-radius: 30px;
+    box-shadow:0px -10px 20px rgba(208, 238, 255, 0.44),
+    (0px 10px 20px rgba(208, 238, 255, 0.44)) ;
+
     &__info {
         display: flex;
         align-items: center;
@@ -181,15 +147,18 @@ body {
     &__photoprofil {
         width: 30px;
         margin-left: 15px;
+        margin-top: 10px;
     }
     &__name {
         margin-left: 15px;
         font-family: "Roboto-Regular";
         font-size: 14px;
+        margin-top: 10px;
 
     }
     &__presentation {
         width: 100%;
+        border-radius: 30px;
     }
     &__heart {
         margin-left: 15px;
@@ -203,17 +172,9 @@ body {
         font-size: 14px;
         
         .text3 {
-            &__name {
-                font-family: "Roboto-Medium";
-                display: flex;
-                justify-content: flex-start;
-
-            }
             &__info {
                 font-family: "Roboto-Regular";
                 width: 100%;
-
-
             }
             &__time {
                 font-family: "Roboto-Medium";
